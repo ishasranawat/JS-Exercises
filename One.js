@@ -20,3 +20,14 @@ rest=input.slice(1)
 let name= snip.toUpperCase()
 
 console.log("Hello" + " " + name + rest)
+
+
+
+// 3. Age in days, weeks and months
+function lifeInWeeks(age) {
+    
+console.log(`You have ${(90*365)-(age*365)} days, ${(90*52)-(age*52)} weeks, and ${(90*12)-(age*12)} months left.`)
+}
+
+lifeInWeeks(56);
+
