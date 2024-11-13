@@ -31,3 +31,11 @@ console.log(`You have ${(90*365)-(age*365)} days, ${(90*52)-(age*52)} weeks, and
 
 lifeInWeeks(56);
 
+
+// 4. BMI Calculator 
+function bmiCalculator(weight, height){
+    let bmi=Math.floor(weight/(height*height));
+    console.log(bmi);  
+}
+bmiCalculator(65, 1.8);
+
