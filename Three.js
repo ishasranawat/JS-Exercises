@@ -30,3 +30,32 @@ console.log("No more bottles of beer on the wall, no more bottles of beer.Go to 
 }
 
 bottle();
+
+
+
+// fibonacci using recursion
+function fibonacciRecursive(n) {
+    if (n <= 0) return 0;
+    if (n === 1) return 1;
+
+    return fibonacciRecursive(n - 1) + fibonacciRecursive(n - 2);
+}
+
+console.log(fibonacciRecursive(10));
+
+// iteration 
+function fibonacciIterative(n) {
+    if (n <= 0) return 0;
+    if (n === 1) return 1;
+
+    let prev = 0, curr = 1;
+
+    for (let i = 2; i <= n; i++) {
+        let next = prev + curr;
+        prev = curr;
+        curr = next;
+    }
+    return curr;
+}
+
+
