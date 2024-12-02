@@ -36,6 +36,6 @@ lifeInWeeks(56);
 function bmiCalculator(weight, height){
     let bmi=Math.floor(weight/(height*height));
     console.log(bmi);  
-}
-bmiCalculator(65, 1.8);
+} 
+bmiCalculator(65, 1.8); 
 
