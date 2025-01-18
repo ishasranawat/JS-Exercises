@@ -1,3 +1,14 @@
+// let, const, var
+let firstName= "Isha";
+console.log(firstName)
+
+const age= 22;
+console.log(age)
+
+var isStudent= true;
+console.log(isStudent);
+
+
 // function sum(a,b) {
    total= a+b
    return total
