@@ -1,8 +1,8 @@
-function sum(a,b) {
-  total= a+b
-  return total
-}
-console.log(sum(5,2));
+// function sum(a,b) {
+   total= a+b
+   return total
+ }
+ console.log(sum(5,2));
 
 
 // can vote 
