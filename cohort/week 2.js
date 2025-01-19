@@ -23,7 +23,7 @@ const fs= require("fs");
 // require- syntax to get the file system module
 // (fs is an external library (file system))
 const contentsA= fs.readFileSync("a.txt", "utf-8"); 
-// (utf-8 is for English language) (readFileSync is a function)
+// (utf-8 is encoding for English language) (readFileSync is a function)
 console.log(contentsA);  
 
 const contentsB= fs.readFileSync("b.txt", "utf-8"); 
