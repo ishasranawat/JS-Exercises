@@ -1,0 +1,26 @@
+.container{
+  background-color: red;
+  width:1200px;
+  height:500px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+}
+
+
+.assignment2{
+  width:500px;
+  height:50px;
+  display:flex;
+}
+
+.div1{
+  flex-grow:1;
+  background-color: rgb(46, 46, 210);
+}
+
+.div2{
+  flex-grow:3;
+  background-color: rgb(235, 249, 36);
+}
