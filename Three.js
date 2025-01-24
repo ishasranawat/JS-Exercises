@@ -30,7 +30,6 @@ console.log("No more bottles of beer on the wall, no more bottles of beer.Go to 
 bottle();
 
 
-
 // fibonacci using recursion
 function fibonacciRecursive(n) {
     if (n <= 0) return 0;
@@ -38,7 +37,6 @@ function fibonacciRecursive(n) {
 
     return fibonacciRecursive(n - 1) + fibonacciRecursive(n - 2);
 }
-
 console.log(fibonacciRecursive(10));
 
 // iteration 
