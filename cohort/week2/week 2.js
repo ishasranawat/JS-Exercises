@@ -16,7 +16,6 @@ function sum(n){
   }
 console.log(sum(10));
 
-
 // to read contents of a file
 const fs= require("fs");
 // require- syntax to get the file system module
