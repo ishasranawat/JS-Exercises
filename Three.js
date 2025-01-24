@@ -16,9 +16,7 @@ while (i<=100) {
     i++
 }
 
-
 // 99 bottles
-
 function bottle() {
 let i=99
 
