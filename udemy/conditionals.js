@@ -1,5 +1,4 @@
 // Check if a number is greater than other
-
 let num1=20;
 let num2=5;
 
@@ -9,7 +8,6 @@ if (num1>num2) {
 else{
   console.log("num2 is greater.");
 }
-
 
 // Check if string is equal to another string
 
