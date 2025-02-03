@@ -31,7 +31,6 @@ console.log(teatype);
 /* do while loop to add numbers from 1 to 3 */
 let total= 0;
 let j=1;
-
 do {
   total+= j;
   j++;
