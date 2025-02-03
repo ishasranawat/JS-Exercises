@@ -1,4 +1,4 @@
-* 
+/* 
 1. Declare an array named `teaFlavors` that contains the strings `"green tea"`, `"black tea"`, and `"oolong tea"`. 
    Access the first element of the array and store it in a variable named `firstTea`.
 */
@@ -29,7 +29,7 @@ console.log(teaTypes);
 */
 let citiesVisited= ["Mumbai", "Sydney"];
 citiesVisited.push("Berlin");
-console.log(citiesVisited);
+console.log(citiesVisited); 
 
 
 /* 
@@ -52,11 +52,11 @@ popularTeas.pop()
 console.log(softCopyTeas);
 console.log(popularTeas);
 
+
 /* 
 7. You have an array named `topCities` containing `"Berlin"`, `"Singapore"`, and `"New York"`. 
    Create a hard copy of this array named `hardCopyCities`.
 */
-
 let topCities=["Berlin","Singapore","New York"];
 let hardCopyCities= [...topCities];
 topCities.pop();
