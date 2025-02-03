@@ -43,7 +43,7 @@ else{
 
 // check is array is empty or not
 let arr1= [];
-if (arr1.length==0){
+if (arr1.length===0){
   console.log("The array is empty.");
 }
 else{
