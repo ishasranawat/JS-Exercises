@@ -40,7 +40,7 @@ function bmiCalculator(weight, height){
 bmiCalculator(65, 1.8); 
 
 
-//5. 
+//5. Write a JS program to find the no of digits in a number
 let input = prompt("Enter your number: ");
 let count = input.length; 
 console.log(count);
