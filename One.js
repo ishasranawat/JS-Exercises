@@ -39,3 +39,9 @@ function bmiCalculator(weight, height){
 } 
 bmiCalculator(65, 1.8); 
 
+
+//5. 
+let input = prompt("Enter your number: ");
+let count = input.length; 
+console.log(count);
+
