@@ -6,7 +6,9 @@ avg(2,4,6);
 
 
 //Multiplication table
-function table(n1,n2){
-  console.log(`$(n1) X $(n2) = n1xn2`);
+function table(n){
+  for (i=n; i<=n*10; i+=n){
+    console.log(i);
 }
-table(5,
+}
+table(5)
