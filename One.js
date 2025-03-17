@@ -45,3 +45,11 @@ let input = prompt("Enter your number: ");
 let count = input.length; 
 console.log(count);
 
+//6. Roll a dice
+function dice (){
+  let roll= (Math.floor(Math.random()*6+1));
+  console.log(roll);
+}
+
+dice();
+
