@@ -15,7 +15,6 @@ function sum(n){
   return (n*(n+1)/2);
   }
 console.log(sum(10));
-
 // to read contents of a file
 const fs= require("fs");
 // require- syntax to get the file system module
